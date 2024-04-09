@@ -1,0 +1,34 @@
+Пользователь:
+Id - int, AI,
+name - varchar(255),
+roleId - int,
+login - varchar(255),
+email - varchar(255),
+password - varchar(255)
+created_at - timestamp
+updated_at - timestamp
+
+Роли:
+Id - int, AI
+label - varchar(255)
+created_at - timestamp
+updated_at - timestamp
+
+Категории:
+Id - int, AI
+label - varchar(255)
+created_at - timestamp
+updated_at - timestamp
+
+Заявки:
+Id - int, AI
+label - varchar(255)
+description - varchar(255)
+categoryId - int
+picture - varchar(255)
+after - varchar(255)
+status - int
+reason - varchar(255)
+userId - int
+created_at - timestamp
+updated_at - timestamp
